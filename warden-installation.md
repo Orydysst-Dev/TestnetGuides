@@ -7,7 +7,6 @@
 ### Install dependencies, if needed
 
 ```bash
-# install dependencies, if needed
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
 ```
@@ -15,7 +14,6 @@ sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -
 ### Install go, if needed
 
 ```bash
-# install go, if needed
 cd $HOME
 VER="1.21.3"
 wget "<https://golang.org/dl/go$VER.linux-amd64.tar.gz>"
@@ -131,7 +129,6 @@ EOF
 ### Reset & Download Snapshot
 
 ```bash
-
 wardend tendermint unsafe-reset-all --home $HOME/.warden
 ```
 
